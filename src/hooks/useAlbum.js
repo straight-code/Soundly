@@ -19,7 +19,7 @@ export const useAlbum = (contract) => {
     return await token
       .getAllTokenIds({
         address: contract,
-        chain: "mumbai"
+        chain: "polygon"
       })
       .then((result) => result);
   };

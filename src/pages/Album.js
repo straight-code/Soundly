@@ -31,7 +31,7 @@ const Album = ({ setNftAlbum }) => {
             className="albumCover"
           ></img>
           <div className="albumDeets">
-            <div>ALBUM</div>
+            <div>ALBUMS</div>
             <div className="title">{albumDetails.title}</div>
             <div className="artist">
               {album && JSON.parse(album[0].metadata).artist}
@@ -50,7 +50,7 @@ const Album = ({ setNftAlbum }) => {
             className="openButton"
             onClick={() =>
               window.open(
-                `https://testnets.opensea.io/assets/mumbai/${albumDetails.contract}/1`
+                `https://opensea.io/assets${albumDetails.contract}/1`
               )
             }
           >
