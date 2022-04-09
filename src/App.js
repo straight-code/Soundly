@@ -19,7 +19,7 @@ const App = () => {
     <>
       <Layout>
         <Layout>
-          <Sider width={500} className="sideBar">
+          <Sider width={400} className="sideBar">
             <img src={Soundly} alt="Logo" className="logo"></img>
             <div className="searchBar">
               <span><input className='searchInput' placeholder=' Search'></input>  </span>
@@ -29,6 +29,7 @@ const App = () => {
             <p style={{ color: "#1DB954" }}> Home </p>
             </Link>
             <p> Your Music </p>
+            <p><a href='https://twitter.com/soundly_web3'> Twitter</a> </p>
             <div className="recentPlayed">
               <p className="recentTitle">RECENTLY PLAYED</p>
             </div>
