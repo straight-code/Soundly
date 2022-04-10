@@ -7,7 +7,7 @@ import './App.css';
 import { Link } from "react-router-dom";
 import Player from "./components/AudioPlayer";
 import { Layout } from "antd";
-import Soundly from "./images/Soundly.png";
+import logo from "./images/text-logo.png";
 import { SearchOutlined, DownCircleOutlined } from "@ant-design/icons";
 
 const { Content, Sider, Footer } = Layout;
@@ -19,17 +19,15 @@ const App = () => {
     <>
       <Layout>
         <Layout>
-          <Sider width={400} className="sideBar">
-            <img src={Soundly} alt="Logo" className="logo"></img>
-            <div className="searchBar">
-              <span><input className='searchInput' placeholder=' Search'></input>  </span>
-              <SearchOutlined style={{ fontSize: "30px" }} />
-            </div>
+          <Sider width={300} className="sideBar">
+            <img src={logo} alt="Logo" className="logo"></img>
+          <div className='spacer'></div>
             <Link to="/">
-            <p style={{ color: "#1DB954" }}> Home </p>
+            <p style={{ color: "#901acf" }}> Home </p>
             </Link>
             <p> Your Music </p>
-            <p><a href='https://twitter.com/soundly_web3'> Twitter</a> </p>
+            <div className='spacer'></div>
+            <p style={{ color: "#901acf" }}><a href='https://twitter.com/soundly_web3' style={{ color: "#901acf" }} > Twitter</a> </p>
             <div className="recentPlayed">
               <p className="recentTitle">RECENTLY PLAYED</p>
             </div>

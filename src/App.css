@@ -7,7 +7,7 @@
 .ant-layout-sider {
     background-image: linear-gradient(#1e2422, #000000);
     background-attachment:fixed;
-    width: 800px;
+    width: 300px;
     padding: 30px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
-    color: white;
+    color: #fff;
     text-shadow: 0 0 0.25px currentcolor;
 }
 
@@ -67,14 +67,15 @@
 }
 
 .logo {
-    width:100px;
+    width:150px;
+    margin-left: 20%;
     margin-bottom: 20px;
   }
   
   .searchBar {
     border-top: 2px solid rgb(125, 125, 125);
     border-bottom: 2px solid rgb(125, 125, 125);
-    padding: 15px 0px;
+    padding: 25px 10px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -82,6 +83,13 @@
   .searchInput{
     background-color: #1e2422;
     border-radius: 25px;
+  }
+  .spacer{
+    border-top: 2px solid rgb(125, 125, 125);
+    padding: 0px 0px;
+    display: flex;
+    margin-bottom: 20px;
+
   }
   .sideBar {
     color: white;

@@ -50,7 +50,7 @@ const Album = ({ setNftAlbum }) => {
             className="openButton"
             onClick={() =>
               window.open(
-                `https://opensea.io/assets${albumDetails.contract}/1`
+                `https://opensea.io/assets/matic/${albumDetails.contract}/1`
               )
             }
           >
